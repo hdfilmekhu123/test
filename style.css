@@ -6,6 +6,15 @@
 
 html {
     background-color: #3c3478;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+input, textarea {
+    -webkit-user-select: text;
+    user-select: text;
 }
 
 body {
